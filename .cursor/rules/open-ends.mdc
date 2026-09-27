@@ -1,0 +1,11 @@
+---
+description: Flaux HQ open-ends tracker and live-site safety rules
+alwaysApply: true
+---
+
+- This repo has OPEN_ENDS.md tracked by Flaux HQ.
+- This site is live in production. Work on branches, never change existing URLs, never add noindex, and never push to main without my approval.
+- When you fix something listed in OPEN_ENDS.md, tick it (- [x]) in the same change.
+- When you notice a new bug, SEO gap, missing client input or unbuilt feature while working, add it under the right section as "- [ ] text #priority". Don't fix unrelated things without asking.
+- Never rename or remove the section headings.
+- Never put secrets, passwords or API keys in OPEN_ENDS.md.
