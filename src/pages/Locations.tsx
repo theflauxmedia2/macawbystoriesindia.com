@@ -134,9 +134,9 @@ const Locations = () => {
                   {/* Content */}
                   <div className={`${index % 2 === 1 ? 'lg:col-start-1' : ''}`}>
                     <Card className="p-8 bg-card border-border hover:shadow-luxury transition-smooth">
-                      <h3 className="font-cinzel text-3xl font-bold text-primary mb-6">
+                      <h2 className="font-cinzel text-3xl font-bold text-primary mb-6">
                         {location.name}
-                      </h3>
+                      </h2>
                       
                       <p className="text-lg text-foreground mb-8 leading-relaxed">
                         {location.description}
@@ -181,7 +181,7 @@ const Locations = () => {
 
                       {/* Highlights */}
                       <div className="mb-8">
-                        <h4 className="font-semibold text-primary mb-3">Highlights:</h4>
+                        <h3 className="font-semibold text-primary mb-3">Highlights:</h3>
                         <div className="flex flex-wrap gap-2">
                           {location.highlights.map((highlight) => (
                             <span

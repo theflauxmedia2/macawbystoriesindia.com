@@ -7,6 +7,13 @@ All colors MUST be HSL.
 */
 
 @layer base {
+  a:focus-visible,
+  button:focus-visible,
+  summary:focus-visible {
+    outline: 2px solid hsl(var(--ring));
+    outline-offset: 2px;
+  }
+
   :root {
     /* Macaw by Stories Brand Colors */
     --background: 168 41% 14%; /* Deep Forest Green #15332D */

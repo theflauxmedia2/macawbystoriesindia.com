@@ -13,6 +13,10 @@ export const Footer = () => {
               <img 
                 src="/lovable-uploads/aeb86edc-b26e-4db4-a52f-ce91f9aa64d1.png" 
                 alt="Macaw by Stories Logo" 
+                width={103}
+                height={122}
+                loading="lazy"
+                decoding="async"
                 className="w-12 h-12 sm:w-14 sm:h-14"
               />
               <div className="text-gold font-cinzel font-bold text-lg sm:text-xl">
@@ -25,8 +29,10 @@ export const Footer = () => {
             </p>
             <div className="flex space-x-3 sm:space-x-4 justify-center sm:justify-start">
               <a 
-                href="#" 
-                className="w-12 h-12 bg-gold/20 rounded-full flex items-center justify-center hover:bg-gold hover:text-charcoal transition-smooth"
+                href="https://www.instagram.com/macawbystories"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-12 h-12 bg-gold/20 rounded-full flex items-center justify-center hover:bg-gold hover:text-charcoal transition-smooth focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
                 aria-label="Instagram"
               >
                 <Instagram className="w-5 h-5 sm:w-6 sm:h-6" />
@@ -53,7 +59,7 @@ export const Footer = () => {
             <h3 className="font-cinzel text-lg sm:text-xl font-bold text-gold mb-4 sm:mb-6">Quick Links</h3>
             <ul className="space-y-2 sm:space-y-3">
               <li>
-                <a href="/#story" className="text-cream/80 hover:text-gold transition-smooth text-sm sm:text-base">
+                <a href="/about-us" className="text-cream/80 hover:text-gold transition-smooth text-sm sm:text-base focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold">
                   Our Story
                 </a>
               </li>

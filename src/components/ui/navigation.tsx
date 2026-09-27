@@ -49,8 +49,8 @@ export const Navigation = ({ onBookTableClick }: NavigationProps) => {
             <img 
               src="/lovable-uploads/aeb86edc-b26e-4db4-a52f-ce91f9aa64d1.png" 
               alt="Macaw by Stories Logo" 
-              width={64}
-              height={64}
+              width={103}
+              height={122}
               decoding="async"
               className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 lg:w-16 lg:h-16 flex-shrink-0"
             />
@@ -127,6 +127,8 @@ export const Navigation = ({ onBookTableClick }: NavigationProps) => {
             size="icon"
             className="lg:hidden text-primary flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            aria-label={isMobileMenuOpen ? "Close menu" : "Open menu"}
+            aria-expanded={isMobileMenuOpen}
           >
             {isMobileMenuOpen ? <X className="w-5 h-5 sm:w-6 sm:h-6" /> : <Menu className="w-5 h-5 sm:w-6 sm:h-6" />}
           </Button>

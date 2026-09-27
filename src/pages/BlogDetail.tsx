@@ -19,6 +19,7 @@ const BLOGS = [
     readTime: '5 min read',
     image: '/food/10.webp',
     excerpt: 'Discover our signature cocktails that perfectly capture the essence of tropical luxury and urban sophistication.',
+    metaDescription: 'Five signature cocktails at Macaw by Stories rooftops in Bengaluru and Chennai, including Sunset Macaw, Feathered Mojito, Black Macaw and Skyline Sour.',
     content: (
       <div className="prose prose-invert max-w-none">
         <p className="text-foreground leading-relaxed mb-6">
@@ -89,6 +90,7 @@ const BLOGS = [
     readTime: '7 min read',
     image: '/lovable-uploads/6f51ee45-ebd9-4968-87bc-81a4529c0ac4.webp',
     excerpt: 'Take a journey through the creative process behind our stunning rooftop designs that blend nature with luxury.',
+    metaDescription: 'How Macaw by Stories designed its Bengaluru and Chennai rooftops — tropical materials, lighting, sound and a layout built for dining and nightlife.',
     content: (
       <div className="prose prose-invert max-w-none">
         <p className="text-foreground leading-relaxed mb-6">
@@ -167,6 +169,7 @@ const BLOGS = [
     readTime: '6 min read',
     image: '/party/1.webp',
     excerpt: 'Planning a corporate event? Discover why Macaw Bangalore is the perfect venue for business celebrations.',
+    metaDescription: 'How to host a corporate event at Macaw Bangalore: rooftop layouts, signature cocktails, a shared menu and music at the Hosur Road venue.',
     content: (
       <div className="prose prose-invert max-w-none">
         <p className="text-foreground leading-relaxed mb-6">
@@ -268,6 +271,7 @@ const BLOGS = [
     readTime: '5 min read',
     image: '/lovable-uploads/72010d4f-e3e8-494a-9834-c311e846743e.webp',
     excerpt: 'From sunset sessions to late-night DJ sets, discover the perfect time to experience our Chennai location.',
+    metaDescription: 'Best times to visit Macaw by Stories Chennai: golden hour, dinner, peak DJ sets and late night at the Sholinganallur rooftop.',
     content: (
       <div className="prose prose-invert max-w-none">
         <p className="text-foreground leading-relaxed mb-6">
@@ -353,6 +357,7 @@ const BLOGS = [
     readTime: '4 min read',
     image: '/food/1.webp',
     excerpt: 'Explore the artistry behind our Japanese-inspired cuisine that perfectly complements our tropical ambiance.',
+    metaDescription: 'Macaw by Stories signature sushi platters, from the torched truffle salmon roll and volcano prawn tempura to the vegetarian garden dragon.',
     content: (
       <div className="prose prose-invert max-w-none">
         <p className="text-foreground leading-relaxed mb-6">
@@ -420,6 +425,7 @@ const BLOGS = [
     readTime: '6 min read',
     image: '/party/2.webp',
     excerpt: 'Learn about our approach to creating unforgettable entertainment experiences across both locations.',
+    metaDescription: 'How Macaw by Stories programs rooftop entertainment in Bengaluru and Chennai, with DJs, a dance floor, lighting and events.',
     content: (
       <div className="prose prose-invert max-w-none">
         <p className="text-foreground leading-relaxed mb-6">
@@ -519,7 +525,7 @@ const BlogDetail = () => {
     <div className="min-h-screen bg-background">
       <PageHead
         title={`${blog.title} | Macaw by Stories`}
-        description={blog.excerpt}
+        description={blog.metaDescription}
         keywords={keywordSets.blog(blog.title)}
         path={`/media/blog/${blog.slug}`}
         ogImage={blog.image}
@@ -527,7 +533,7 @@ const BlogDetail = () => {
         structuredData={[
           buildArticleSchema({
             title: blog.title,
-            description: blog.excerpt,
+            description: blog.metaDescription,
             path: `/media/blog/${blog.slug}`,
             image: blog.image,
             datePublished: blog.date,

@@ -1,18 +1,9 @@
-import { useLocation, Link } from "react-router-dom";
-import { useEffect } from "react";
+import { Link } from "react-router-dom";
 import { PageHead } from "@/components/seo/PageHead";
 import { pageSeo } from "@/components/seo/pageSeo";
 
 const NotFound = () => {
-  const location = useLocation();
   const seo = pageSeo.notFound;
-
-  useEffect(() => {
-    console.error(
-      "404 Error: User attempted to access non-existent route:",
-      location.pathname
-    );
-  }, [location.pathname]);
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-background">

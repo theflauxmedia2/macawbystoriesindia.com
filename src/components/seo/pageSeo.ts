@@ -21,7 +21,7 @@ export const pageSeo = {
     ogImage: DEFAULT_OG_IMAGE,
   },
   locations: {
-    title: `Locations — Bangalore (AECS Layout) & Chennai (OMR) Rooftop${suffix}`,
+    title: `Locations — AECS Layout Bangalore & OMR Chennai${suffix}`,
     description:
       'Visit Macaw by Stories in Bengaluru (AECS Layout, Hosur Road) and Chennai (Sholinganallur, OMR). Rooftop dining, cocktails, live music & nightlife. Get directions and reserve.',
     path: '/locations',
@@ -29,7 +29,7 @@ export const pageSeo = {
     ogImage: DEFAULT_OG_IMAGE,
   },
   gallery: {
-    title: `Gallery — Rooftop Ambience, Food & Nightlife Photos${suffix}`,
+    title: `Gallery — Rooftop Ambience, Food & Nightlife${suffix}`,
     description:
       'Explore Macaw by Stories through photos — rooftop ambience, signature cocktails, gourmet food, DJ nights and celebration moments at our Bengaluru and Chennai venues.',
     path: '/gallery',

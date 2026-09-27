@@ -33,6 +33,8 @@ export const HeroSection = ({ onBookTableClick }: HeroSectionProps) => {
         src="/herosec/hero-poster.webp"
         alt=""
         aria-hidden="true"
+        width={1280}
+        height={720}
         className="absolute inset-0 h-full w-full object-cover pointer-events-none"
         fetchPriority="high"
         decoding="async"
@@ -61,7 +63,7 @@ export const HeroSection = ({ onBookTableClick }: HeroSectionProps) => {
         <div className="max-w-6xl mx-auto w-full">
           <div className="animate-reveal" style={{ animationDelay: '0.1s' }}>
             <h1 className="font-cinzel text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold text-primary mb-4 sm:mb-6 lg:mb-8 leading-tight tracking-tight">
-              <span className="block">Macaw: Two Cities,</span>
+              <span className="block">Macaw: Two Cities, </span>
               <span className="block bg-gradient-gold bg-clip-text text-transparent">
                 One Iconic Nightlife Vibe
               </span>

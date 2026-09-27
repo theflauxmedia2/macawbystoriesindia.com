@@ -116,7 +116,7 @@ export const PageHead = ({
     upsertMeta('meta[name="twitter:description"]', 'name', 'twitter:description', description);
     upsertMeta('meta[name="twitter:image"]', 'name', 'twitter:image', resolvedOgImage);
 
-    setStructuredData(structuredData);
+    setStructuredData(structuredDataKey ? JSON.parse(structuredDataKey) : undefined);
 
     return () => {
       document.getElementById(PAGE_JSON_LD_ID)?.remove();

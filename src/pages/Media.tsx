@@ -216,6 +216,8 @@ const Media = () => {
                         <img
                           src={release.image}
                           alt={release.title}
+                          loading="lazy"
+                          decoding="async"
                           className={`w-full h-48 ${release.imageFit === 'contain' ? 'object-contain p-4' : 'object-cover'} group-hover:scale-105 transition-smooth duration-500`}
                         />
                         <div className="absolute top-4 left-4">
@@ -274,6 +276,8 @@ const Media = () => {
                             <img
                               src={featuredPost.image}
                               alt={featuredPost.title}
+                              loading="lazy"
+                              decoding="async"
                               className="w-full h-full object-cover"
                             />
                             <div className="absolute top-4 left-4">
@@ -351,6 +355,8 @@ const Media = () => {
                             <img
                               src={post.image}
                               alt={post.title}
+                              loading="lazy"
+                              decoding="async"
                               className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500"
                             />
                             <div className="absolute top-4 left-4">

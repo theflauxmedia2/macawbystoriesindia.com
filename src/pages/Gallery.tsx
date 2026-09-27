@@ -358,9 +358,9 @@ const Gallery = () => {
                       <>
                         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                         <div className="absolute bottom-0 left-0 right-0 p-3 sm:p-4 lg:p-6 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300 opacity-0 group-hover:opacity-100">
-                          <h3 className="font-cinzel text-base sm:text-lg lg:text-lg font-bold text-white mb-1 sm:mb-2">
+                          <p className="font-cinzel text-base sm:text-lg lg:text-lg font-bold text-white mb-1 sm:mb-2">
                             {item.title}
-                          </h3>
+                          </p>
                           <p className="text-white/90 text-xs sm:text-sm lg:text-sm leading-relaxed">
                             {item.description}
                           </p>

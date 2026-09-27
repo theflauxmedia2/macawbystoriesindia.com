@@ -48,6 +48,6 @@ export const LOCATIONS = {
 } as const;
 
 export function absoluteUrl(path = '/') {
-  if (path === '/') return SITE_URL;
+  if (!path || path === '/') return `${SITE_URL}/`;
   return `${SITE_URL}${path.startsWith('/') ? path : `/${path}`}`;
 }

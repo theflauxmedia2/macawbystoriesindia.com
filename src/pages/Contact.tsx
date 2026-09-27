@@ -9,6 +9,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Button } from '@/components/ui/button';
+import { Label } from '@/components/ui/label';
 import { MapPin, Phone, Clock, Navigation as NavigationIcon } from 'lucide-react';
 
 const Contact = () => {
@@ -152,47 +153,73 @@ const Contact = () => {
                 <CardContent>
                   <form onSubmit={handleSubmit} className="space-y-4">
                     <div>
+                      <Label htmlFor="contact-name">Your name</Label>
                       <Input
+                        id="contact-name"
                         name="name"
                         placeholder="Your Name"
                         value={formData.name}
                         onChange={handleInputChange}
                         required
+                        autoComplete="name"
+                        className="mt-2"
                       />
                     </div>
                     <div className="grid md:grid-cols-2 gap-4">
-                      <Input
-                        name="phone"
-                        placeholder="Phone Number"
-                        value={formData.phone}
-                        onChange={handleInputChange}
-                      />
-                      <select
-                        name="location"
-                        value={formData.location}
-                        onChange={handleInputChange}
-                        className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm"
-                      >
-                        <option value="">Select Location</option>
-                        <option value="bangalore">Bangalore</option>
-                        <option value="chennai">Chennai</option>
-                      </select>
+                      <div>
+                        <Label htmlFor="contact-phone">Phone number</Label>
+                        <Input
+                          id="contact-phone"
+                          name="phone"
+                          type="tel"
+                          placeholder="Phone Number"
+                          value={formData.phone}
+                          onChange={handleInputChange}
+                          autoComplete="tel"
+                          className="mt-2"
+                        />
+                      </div>
+                      <div>
+                        <Label htmlFor="contact-location">Location</Label>
+                        <select
+                          id="contact-location"
+                          name="location"
+                          value={formData.location}
+                          onChange={handleInputChange}
+                          required
+                          className="mt-2 flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                        >
+                          <option value="">Select Location</option>
+                          <option value="bangalore">Bangalore</option>
+                          <option value="chennai">Chennai</option>
+                        </select>
+                      </div>
                     </div>
-                    <Input
-                      name="subject"
-                      placeholder="Subject"
-                      value={formData.subject}
-                      onChange={handleInputChange}
-                      required
-                    />
-                    <Textarea
-                      name="message"
-                      placeholder="Your Message"
-                      rows={4}
-                      value={formData.message}
-                      onChange={handleInputChange}
-                      required
-                    />
+                    <div>
+                      <Label htmlFor="contact-subject">Subject</Label>
+                      <Input
+                        id="contact-subject"
+                        name="subject"
+                        placeholder="Subject"
+                        value={formData.subject}
+                        onChange={handleInputChange}
+                        required
+                        className="mt-2"
+                      />
+                    </div>
+                    <div>
+                      <Label htmlFor="contact-message">Message</Label>
+                      <Textarea
+                        id="contact-message"
+                        name="message"
+                        placeholder="Your Message"
+                        rows={4}
+                        value={formData.message}
+                        onChange={handleInputChange}
+                        required
+                        className="mt-2"
+                      />
+                    </div>
                     <Button
                       type="submit"
                       className="w-full bg-gradient-gold text-charcoal font-semibold hover:shadow-luxury transition-smooth"
