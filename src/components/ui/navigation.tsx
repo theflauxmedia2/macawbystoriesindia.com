@@ -3,6 +3,7 @@ import { Menu, X } from 'lucide-react';
 import { Button } from './button';
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from './dropdown-menu';
 import { Link, useLocation } from 'react-router-dom';
+import { RESERVATION_URLS } from '@/lib/reservations';
 
 interface NavigationProps {
   onBookTableClick?: () => void;
@@ -107,12 +108,12 @@ export const Navigation = ({ onBookTableClick }: NavigationProps) => {
               </DropdownMenuTrigger>
               <DropdownMenuContent align="end" className="min-w-[220px]">
                 <DropdownMenuItem asChild>
-                  <a href="https://webbook.wegsoft.com/Q8W7E6R5T4Y3U2I1O0" target="_blank" rel="noopener noreferrer" className="w-full">
+                  <a href={RESERVATION_URLS.chennai} target="_blank" rel="noopener noreferrer" className="w-full">
                     Reserve Chennai
                   </a>
                 </DropdownMenuItem>
                 <DropdownMenuItem asChild>
-                  <a href="https://webbook.wegsoft.com/H7G6F5E4D3C2B1A0Z9Y8" target="_blank" rel="noopener noreferrer" className="w-full">
+                  <a href={RESERVATION_URLS.bangalore} target="_blank" rel="noopener noreferrer" className="w-full">
                     Reserve Bengaluru
                   </a>
                 </DropdownMenuItem>
@@ -174,7 +175,7 @@ export const Navigation = ({ onBookTableClick }: NavigationProps) => {
               ))}
               <div className="grid grid-cols-1 gap-2 mt-4">
                 <a
-                  href="https://webbook.wegsoft.com/Q8W7E6R5T4Y3U2I1O0"
+                  href={RESERVATION_URLS.chennai}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-gradient-gold text-center text-charcoal font-semibold hover:shadow-luxury transition-smooth w-full text-lg py-4 rounded-lg backdrop-blur-sm"
@@ -183,7 +184,7 @@ export const Navigation = ({ onBookTableClick }: NavigationProps) => {
                   Reserve Chennai
                 </a>
                 <a
-                  href="https://webbook.wegsoft.com/H7G6F5E4D3C2B1A0Z9Y8"
+                  href={RESERVATION_URLS.bangalore}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-gradient-gold text-center text-charcoal font-semibold hover:shadow-luxury transition-smooth w-full text-lg py-4 rounded-lg backdrop-blur-sm"

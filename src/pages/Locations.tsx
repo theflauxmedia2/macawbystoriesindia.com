@@ -10,6 +10,7 @@ import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { MapPin, Clock, Phone, Instagram } from 'lucide-react';
 import { OptimizedImage } from '@/components/ui/optimized-image';
+import { RESERVATION_URLS } from '@/lib/reservations';
 
 const Locations = () => {
   const seo = pageSeo.locations;
@@ -36,7 +37,7 @@ const Locations = () => {
       highlights: ['Rooftop', 'Cocktails', 'Live Music', 'Party Vibe', 'Dance Floor'],
       description: 'Macaw by Stories Bengaluru in AECS Layout is a rooftop restaurant and cocktail bar built for fine dining, nightlife, and celebration dinners. Expect stunning city views, energetic music, and an atmosphere perfect for date nights, birthday parties, corporate dinners, and weekend celebrations near Whitefield.',
       mapUrl: 'https://maps.google.com/?q=2224–2225,+AECS+Layout,+Near+Singasandra,+Hosur+Main+Road,+Bommanahalli,+Bengaluru',
-      reservationUrl: 'https://webbook.wegsoft.com/H7G6F5E4D3C2B1A0Z9Y8',
+      reservationUrl: RESERVATION_URLS.bangalore,
     },
     {
       id: 'chennai',
@@ -50,7 +51,7 @@ const Locations = () => {
       description: 'Experience Chennai\'s coastal charm from our rooftop venue. Perfect for sunset sessions, DJ nights, and creating memorable moments with friends and colleagues.',
       instagram: '@macawchennai',
       mapUrl: 'https://maps.google.com/?q=132,+Max+Kailash+Building,+Rajiv+Gandhi+Salai,+Sholinganallur,+Chennai+600119',
-      reservationUrl: 'https://webbook.wegsoft.com/Q8W7E6R5T4Y3U2I1O0',
+      reservationUrl: RESERVATION_URLS.chennai,
     },
   ];
 

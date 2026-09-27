@@ -8,6 +8,7 @@ import { buildArticleSchema, buildBreadcrumbSchema } from '@/components/seo/stru
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Calendar, Clock, ArrowLeft } from 'lucide-react';
+import { RESERVATION_URLS } from '@/lib/reservations';
 
 const BLOGS = [
   {
@@ -575,7 +576,7 @@ const BlogDetail = () => {
                 <Button 
                   variant="outline"
                   className="border-primary text-primary hover:bg-primary/10 transition-smooth"
-                  onClick={() => window.open('https://webbook.wegsoft.com/H7G6F5E4D3C2B1A0Z9Y8', '_blank', 'noopener,noreferrer')}
+                  onClick={() => window.open(RESERVATION_URLS.bangalore, '_blank', 'noopener,noreferrer')}
                 >
                   Make a Reservation →
                 </Button>

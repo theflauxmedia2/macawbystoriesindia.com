@@ -36,6 +36,21 @@ export function buildRestaurantSchema(locationKey: LocationKey) {
     priceRange: '$$$',
     servesCuisine: ['Indian', 'Continental', 'Asian', 'Japanese', 'Mediterranean'],
     acceptsReservations: true,
+    potentialAction: {
+      '@type': 'ReserveAction',
+      target: {
+        '@type': 'EntryPoint',
+        urlTemplate: location.reservationUrl,
+        actionPlatform: [
+          'http://schema.org/DesktopWebPlatform',
+          'http://schema.org/MobileWebPlatform',
+        ],
+      },
+      result: {
+        '@type': 'FoodEstablishmentReservation',
+        name: `Table reservation at ${location.name}`,
+      },
+    },
     currenciesAccepted: 'INR',
     paymentAccepted: ['Cash', 'Credit Card', 'UPI'],
     openingHoursSpecification: [

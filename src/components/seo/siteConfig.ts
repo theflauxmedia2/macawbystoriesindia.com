@@ -1,3 +1,5 @@
+import { RESERVATION_URLS } from '@/lib/reservations';
+
 export const SITE_URL = 'https://macawbystoriesindia.com';
 export const SITE_NAME = 'Macaw by Stories';
 export const SITE_TAGLINE = 'Two Cities, One Iconic Nightlife Vibe';
@@ -25,7 +27,7 @@ export const LOCATIONS = {
     openingHours: 'Mo-Su 12:00-01:00',
     latitude: 12.8697,
     longitude: 77.6267,
-    reservationUrl: 'https://webbook.wegsoft.com/H7G6F5E4D3C2B1A0Z9Y8',
+    reservationUrl: RESERVATION_URLS.bangalore,
     image: DEFAULT_OG_IMAGE,
   },
   chennai: {
@@ -40,7 +42,7 @@ export const LOCATIONS = {
     openingHours: 'Mo-Su 12:00-23:30',
     latitude: 12.9006,
     longitude: 80.2204,
-    reservationUrl: 'https://webbook.wegsoft.com/Q8W7E6R5T4Y3U2I1O0',
+    reservationUrl: RESERVATION_URLS.chennai,
     image: CHENNAI_OG_IMAGE,
   },
 } as const;
