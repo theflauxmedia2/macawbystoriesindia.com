@@ -100,11 +100,11 @@ const Contact = () => {
         <section className="py-20 px-4 bg-gradient-primary">
           <div className="container mx-auto text-center">
             <h1 className="font-cinzel text-3xl md:text-4xl font-bold text-primary mb-6">
-              Contact Us
+              Contact &amp; Table Reservations
             </h1>
             <p className="text-xl text-foreground max-w-3xl mx-auto">
-              Get in touch with us for reservations, events, or any questions. 
-              We’re here to help you book the perfect experience—date nights, birthday celebrations, private dining, and corporate dinners.
+              Book a table at our rooftop restaurants in AECS Layout, Bengaluru or Sholinganallur, OMR, Chennai.
+              We’re here to help you plan the perfect experience—romantic date nights, birthday celebrations, live music nights, private dining and corporate dinners.
             </p>
           </div>
         </section>

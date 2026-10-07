@@ -225,11 +225,12 @@ const Packages = () => {
               <span className="text-lg text-foreground font-medium">Bengaluru</span>
             </div>
             <h1 className="font-cinzel text-3xl md:text-4xl font-bold text-primary mb-4">
-              Celebration Packages
+              Birthday &amp; Party Packages in Bengaluru
             </h1>
             <p className="text-xl text-foreground max-w-3xl mx-auto">
-              Discover our curated packages and extensive menu options for your perfect celebration. 
-              From intimate gatherings to grand celebrations, we have something for every story.
+              Planning a birthday party, office celebration or group dinner? Our rooftop party restaurant in AECS Layout,
+              near Singasandra on Hosur Road, offers curated packages with live music and a menu for every story.
+              Packages start at ₹1099 per person for groups of 25 or more.
             </p>
           </div>
         </section>
@@ -301,7 +302,8 @@ const Packages = () => {
               Packages Menu
             </h2>
             <p className="text-center text-foreground mb-12 sm:mb-16 lg:mb-20 max-w-3xl mx-auto text-base sm:text-lg leading-relaxed px-2">
-              Explore our extensive menu of appetizers, main courses, mocktails and desserts
+              Choose from North Indian, Chinese and Asian, and continental starters, mains with pizzas, pastas
+              and biryanis, plus mocktails and desserts
             </p>
             <h3 className="font-cinzel text-2xl font-bold text-primary text-center mb-12">
               Appetizers
@@ -469,8 +471,8 @@ const Packages = () => {
               Ready to Plan Your Event?
             </h2>
             <p className="text-lg text-foreground mb-8 max-w-2xl mx-auto">
-              Contact our event specialists to customize your perfect package and create 
-              an unforgettable experience for your guests.
+              Contact our event specialists to customize your package—from birthday celebrations to corporate
+              parties, we make Macaw one of the best party restaurants in Bangalore for your guests.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button

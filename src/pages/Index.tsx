@@ -5,6 +5,7 @@ import { HighlightsGrid } from '@/components/ui/highlights-grid';
 import { EventsPreview } from '@/components/ui/events-preview';
 import { GalleryPreview } from '@/components/ui/gallery-preview';
 import { LocationsSection } from '@/components/ui/locations-section';
+import { DiningOccasions } from '@/components/ui/dining-occasions';
 import { BookingModal } from '@/components/ui/booking-modal';
 import { Footer } from '@/components/ui/footer';
 import { PageHead } from '@/components/seo/PageHead';
@@ -43,6 +44,7 @@ const Index = () => {
       <main>
         <HeroSection onBookTableClick={() => handleBookTableClick()} />
         <HighlightsGrid />
+        <DiningOccasions />
         {/* <EventsPreview /> */}
         <LocationsSection onBookTableClick={handleBookTableClick} />
         <GalleryPreview />

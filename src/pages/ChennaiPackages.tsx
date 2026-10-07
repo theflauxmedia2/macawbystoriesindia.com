@@ -40,15 +40,15 @@ const ChennaiPackages = () => {
               <Sparkles className="w-16 h-16 text-primary" />
             </div>
             <h1 className="font-cinzel text-4xl md:text-6xl font-bold text-primary mb-6">
-              Coming Soon
+              Party Packages in OMR, Chennai — Coming Soon
             </h1>
             <p className="text-xl md:text-2xl text-foreground max-w-3xl mx-auto mb-8">
-              Exciting celebration packages are being crafted for our Chennai location. 
-              Get ready for an extraordinary dining experience that tells your story.
+              Celebration packages are being crafted for our rooftop restaurant in Sholinganallur on OMR.
+              Until then, call us to plan birthday parties, group dining and celebrations in Chennai.
             </p>
             <div className="flex items-center justify-center space-x-4 text-foreground">
               <MapPin className="w-5 h-5" />
-              <span className="text-lg">Chennai</span>
+              <span className="text-lg">Sholinganallur, OMR, Chennai</span>
             </div>
           </div>
         </section>
@@ -64,9 +64,9 @@ const ChennaiPackages = () => {
                     What's Coming?
                   </h2>
                   <p className="text-foreground text-lg leading-relaxed">
-                    We're working tirelessly to bring you the same exceptional dining experience 
-                    that has made Macaw by Stories a beloved destination. Our Chennai location 
-                    will feature curated packages perfect for every celebration.
+                    We're bringing the same packages that make Macaw by Stories a favourite party place
+                    in Bangalore to Chennai. Our Sholinganallur rooftop will feature curated packages for
+                    birthday parties, group dinners and corporate celebrations on OMR.
                   </p>
                 </div>
 
@@ -75,14 +75,14 @@ const ChennaiPackages = () => {
                     <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                     <div>
                       <h3 className="font-semibold text-foreground mb-1">Curated Celebration Packages</h3>
-                      <p className="text-muted-foreground">From intimate gatherings to grand celebrations</p>
+                      <p className="text-muted-foreground">Birthday parties, intimate gatherings and grand celebrations</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-4">
                     <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                     <div>
                       <h3 className="font-semibold text-foreground mb-1">Signature Dining Experience</h3>
-                      <p className="text-muted-foreground">Unique flavors and exceptional service</p>
+                      <p className="text-muted-foreground">North Indian, South Indian, Asian, continental, pizza and pasta</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-4">
@@ -109,10 +109,10 @@ const ChennaiPackages = () => {
                   <div className="text-center">
                     <div className="flex items-center justify-center space-x-2 mb-2">
                       <Clock className="w-5 h-5 text-primary" />
-                      <span className="font-semibold text-foreground">Opening Soon</span>
+                      <span className="font-semibold text-foreground">Packages Coming Soon</span>
                     </div>
                     <p className="text-sm text-muted-foreground">
-                      We're putting the finishing touches on our Chennai location
+                      We're putting the finishing touches on our Chennai party packages
                     </p>
                   </div>
 
@@ -136,8 +136,8 @@ const ChennaiPackages = () => {
                     <div className="text-center">
                       <h4 className="font-semibold text-foreground mb-2">Location</h4>
                       <p className="text-sm text-muted-foreground">
-                        Chennai, Tamil Nadu<br />
-                        <span className="text-primary">Opening Soon</span>
+                        132, Max Kailash Building, Rajiv Gandhi Salai,<br />
+                        Sholinganallur, Chennai 600119
                       </p>
                     </div>
                   </div>

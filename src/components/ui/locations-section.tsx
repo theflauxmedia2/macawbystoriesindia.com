@@ -38,7 +38,7 @@ export const LocationsSection = ({ onBookTableClick }: LocationsSectionProps) =>
       city: 'Bengaluru',
       image: '/lovable-uploads/1da2dad0-5f5a-4a7c-a762-c371ea2063a8.webp',
       address: '2224–2225, AECS Layout, Near Singasandra, Hosur Main Road, Bommanahalli, Bengaluru',
-      description: 'Rooftop paradise in the tech capital with cocktails, live music, party vibes, and an energetic dance floor.',
+      description: 'A rooftop restaurant in AECS Layout near Singasandra on Hosur Road—cocktails, live music, North Indian, Asian and continental food, and an energetic dance floor open till 1 AM.',
       highlights: ['Rooftop Views', 'Live Music', 'Dance Floor', 'Party Vibe'],
       phone: '+91‑8068507673',
       hours: '12:00 PM – 1:00 AM',
@@ -49,8 +49,8 @@ export const LocationsSection = ({ onBookTableClick }: LocationsSectionProps) =>
       city: 'Chennai',
       image: '/lovable-uploads/5731ead5-b641-42d5-b802-0f7ce04739e5.webp',
       address: '132, Max Kailash Building, Rajiv Gandhi Salai, Sholinganallur, Chennai – 600119',
-      description: 'Coastal rooftop experience with DJ nights, signature cocktails, bar bites, and lively group vibes.',
-      highlights: ['DJ Nights', 'Coastal Views', 'Bar Bites', 'Group Vibes'],
+      description: 'A rooftop restaurant in Sholinganallur on OMR—live music, DJ nights, signature cocktails and North Indian, South Indian, Asian and continental food for lively group nights out.',
+      highlights: ['Live Music', 'DJ Nights', 'Coastal Views', 'Group Vibes'],
       phone: '+91‑8045883769',
       hours: '12:00 PM – 11:30 PM',
       instagram: '@macawchennai',
@@ -66,8 +66,8 @@ export const LocationsSection = ({ onBookTableClick }: LocationsSectionProps) =>
             Visit Us
           </h2>
           <p className="text-base sm:text-lg lg:text-xl text-foreground max-w-3xl mx-auto leading-relaxed px-2">
-            Experience tropical luxury at our signature locations across South India. 
-            Each venue offers its own unique charm while maintaining our commitment to excellence.
+            Two rooftop restaurants with live music in Bengaluru and Chennai.
+            Each venue has its own charm, with the same commitment to great food, drinks and nightlife.
           </p>
         </div>
 

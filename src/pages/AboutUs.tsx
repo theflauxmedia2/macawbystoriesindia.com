@@ -47,8 +47,8 @@ const AboutUs = () => {
               About Macaw by Stories
             </h1>
             <p className="text-xl text-foreground leading-relaxed">
-              More than a bar—it's a sky-high ritual. With rooftops in Chennai and Bengaluru, 
-              we deliver unmatched vibes, bold flavors, and curated experiences that bring people together under the stars.
+              More than a bar—it's a sky-high ritual. With rooftop restaurants in Sholinganallur, Chennai and AECS Layout, Bengaluru,
+              we deliver live music, bold flavors, and curated experiences that bring people together under the stars.
             </p>
           </div>
         </section>
@@ -73,8 +73,10 @@ const AboutUs = () => {
                     moments that become memories, experiences that become stories.
                   </p>
                   <p>
-                    From our carefully curated music to our signature cocktails, every element is 
-                    designed to transport you to a world where tropical paradise meets cosmopolitan elegance.
+                    From live music and DJ nights to signature cocktails and a multi-cuisine menu of North Indian,
+                    Asian, continental, pizza and pasta favourites, every element is designed to transport you to a
+                    world where tropical paradise meets cosmopolitan elegance—a luxury rooftop dining experience in
+                    Bangalore and Chennai.
                   </p>
                 </div>
               </div>

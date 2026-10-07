@@ -175,8 +175,8 @@ const Media = () => {
               Media & Press
             </h1>
             <p className="text-xl text-foreground max-w-3xl mx-auto">
-              Stay updated with the latest news, press releases, and insights from Macaw by Stories. 
-              Discover our journey, achievements, and the stories behind our success.
+              Stay updated with the latest news, press releases, and insights from Macaw by Stories—the
+              rooftop restaurants on Hosur Road, Bengaluru and OMR, Chennai. Discover our journey and the stories behind our success.
             </p>
           </div>
         </section>

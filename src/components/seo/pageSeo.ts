@@ -5,49 +5,49 @@ const suffix = ` | ${SITE_NAME}`;
 
 export const pageSeo = {
   home: {
-    title: `Rooftop Bar & Fine Dining in Bangalore & Chennai${suffix}`,
+    title: `Rooftop Restaurant & Live Music in Bangalore & Chennai${suffix}`,
     description:
-      'Macaw by Stories — iconic rooftop bars in Bengaluru (AECS Layout) and Chennai (OMR). Signature cocktails, live DJs, fine dining & nightlife. Book your table today.',
+      'Rooftop restaurants with live music & nightlife in AECS Layout, Bengaluru and Sholinganallur (OMR), Chennai. North Indian, Asian, continental, pizza & cocktails. Book a table.',
     path: '/',
     keywords: keywordSets.home,
     ogImage: DEFAULT_OG_IMAGE,
   },
   about: {
-    title: `About Us — Rooftop Dining & Nightlife Brand${suffix}`,
+    title: `About Us — Luxury Rooftop Dining & Nightlife${suffix}`,
     description:
-      'Discover the story behind Macaw by Stories — tropical luxury meets urban sophistication across rooftop venues in Bengaluru and Chennai. Craft cocktails, live music & unforgettable vibes.',
+      'The story behind Macaw by Stories — luxury rooftop restaurants in Bengaluru and Chennai where fine dining, craft cocktails, live music and nightlife come together.',
     path: '/about-us',
     keywords: keywordSets.about,
     ogImage: DEFAULT_OG_IMAGE,
   },
   locations: {
-    title: `Locations — Bangalore (AECS Layout) & Chennai (OMR) Rooftop${suffix}`,
+    title: `Rooftop Restaurants in AECS Layout, Bengaluru & OMR, Chennai${suffix}`,
     description:
-      'Visit Macaw by Stories in Bengaluru (AECS Layout, Hosur Road) and Chennai (Sholinganallur, OMR). Rooftop dining, cocktails, live music & nightlife. Get directions and reserve.',
+      'Find Macaw by Stories near Singasandra on Hosur Road, Bengaluru and in Sholinganallur on OMR, Chennai. Rooftop dining, live music, late-night dinners & parties. Get directions.',
     path: '/locations',
     keywords: keywordSets.locations,
     ogImage: DEFAULT_OG_IMAGE,
   },
   gallery: {
-    title: `Gallery — Rooftop Ambience, Food & Nightlife Photos${suffix}`,
+    title: `Gallery — Rooftop Restaurant, Food & Nightlife Photos${suffix}`,
     description:
-      'Explore Macaw by Stories through photos — rooftop ambience, signature cocktails, gourmet food, DJ nights and celebration moments at our Bengaluru and Chennai venues.',
+      'Photos of Macaw by Stories — rooftop dining, cocktails, food, live music and party nights at our restaurants in AECS Layout, Bengaluru and Sholinganallur (OMR), Chennai.',
     path: '/gallery',
     keywords: keywordSets.gallery,
     ogImage: DEFAULT_OG_IMAGE,
   },
   packages: {
-    title: `Bengaluru Celebration & Event Packages${suffix}`,
+    title: `Birthday & Party Packages in Bangalore (AECS Layout)${suffix}`,
     description:
-      'Macaw by Stories Bengaluru event packages from ₹1099/person. Curated appetizers, mains, mocktails & desserts for birthdays, corporate events & group celebrations. Min 25 guests.',
+      'Party and birthday packages at our rooftop restaurant near Singasandra, Hosur Road, Bengaluru. From ₹1099/person, min 25 guests. North Indian, Chinese, pizza & pasta menus.',
     path: '/packages',
     keywords: keywordSets.packages,
     ogImage: DEFAULT_OG_IMAGE,
   },
   chennaiPackages: {
-    title: `Chennai Celebration Packages — Coming Soon${suffix}`,
+    title: `Party & Birthday Packages in OMR, Chennai — Coming Soon${suffix}`,
     description:
-      'Exciting celebration packages coming soon to Macaw by Stories Chennai (Sholinganallur, OMR). Contact us for private dining, corporate events & group bookings.',
+      'Party packages are coming soon to Macaw by Stories, Sholinganallur (OMR). Call us now to book birthday parties, group dining and corporate celebrations in Chennai.',
     path: '/chennai-packages',
     keywords: keywordSets.chennaiPackages,
     ogImage: CHENNAI_OG_IMAGE,
@@ -55,15 +55,15 @@ export const pageSeo = {
   media: {
     title: `Media, Press & Blog — News & Stories${suffix}`,
     description:
-      'Latest press coverage, media features and blog stories from Macaw by Stories. News from The Hindu, Economic Times & more about our Bangalore and Chennai rooftops.',
+      'Press coverage and blog stories from Macaw by Stories — news from The Hindu, Economic Times & more about our rooftop restaurants on Hosur Road, Bengaluru and OMR, Chennai.',
     path: '/media',
     keywords: keywordSets.media,
     ogImage: DEFAULT_OG_IMAGE,
   },
   contact: {
-    title: `Contact & Table Reservations — Bangalore & Chennai${suffix}`,
+    title: `Book a Table — Rooftop Restaurant in Bangalore & Chennai${suffix}`,
     description:
-      'Book a table at Macaw by Stories — rooftop dining, cocktails & nightlife in Bengaluru and Chennai. Call, WhatsApp or enquire for reservations, private dining & corporate events.',
+      'Reserve a table at Macaw by Stories in AECS Layout, Bengaluru or Sholinganallur, OMR, Chennai — for date nights, birthday parties, live music nights and private dining.',
     path: '/contact',
     keywords: keywordSets.contact,
     ogImage: DEFAULT_OG_IMAGE,
