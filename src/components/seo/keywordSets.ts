@@ -1,28 +1,28 @@
 export const keywordSets = {
   home:
-    'macaw by stories, macaw by stories bangalore, macaw by stories chennai, rooftop bar bangalore, rooftop restaurant chennai, rooftop dining bengaluru, fine dining restaurant bangalore, cocktail bar chennai omr, nightlife bangalore, live music restaurant, date night restaurant bangalore, best rooftop bars chennai, party venue bengaluru, macaw aecs layout',
+    'macaw by stories, best restaurants in bangalore, best restaurants in chennai, rooftop restaurant in bangalore, rooftop restaurant in chennai, live music restaurants in bangalore, live music restaurants in chennai, best nightlife in bangalore, best nightlife in chennai, best rooftop restaurant in aecs layout, best rooftop restaurant in omr, best restaurants in sholinganallur, rooftop dining, date night restaurants, party restaurant',
 
   about:
-    'about macaw by stories, rooftop restaurant brand india, tropical luxury dining, nightlife brand bangalore chennai, macaw by stories story, premium rooftop bar',
+    'about macaw by stories, luxury restaurants in bangalore, luxury restaurants in chennai, best fine dining restaurant in bangalore, rooftop dining, nightlife restaurant, live music dining',
 
   locations:
-    'macaw by stories locations, macaw aecs layout, macaw restaurant bangalore, rooftop bar sholinganallur, restaurants near whitefield bangalore, rooftop bar near omr chennai, macaw chennai omr, macaw bengaluru hosur road, fine dining near singasandra',
+    'macaw by stories locations, best restaurant in aecs layout, best restaurant near singasandra, best restaurants in hosur road, rooftop restaurant in singasandra, live music restaurant in hosur road, best restaurants in sholinganallur, best restaurants in omr, rooftop restaurant in sholinganallur, best rooftop restaurant on omr, live music restaurant in omr, late night restaurants in bangalore, best nightlife in omr',
 
   gallery:
-    'macaw by stories photos, rooftop bar ambience bangalore, chennai nightlife photos, macaw restaurant food gallery, cocktail bar images, party venue pictures macaw',
+    'macaw by stories photos, rooftop restaurant in bangalore, rooftop restaurant in chennai, rooftop dining photos, nightlife restaurant photos, live music restaurant, party restaurant pictures',
 
   packages:
-    'macaw party packages bangalore, celebration packages bengaluru, corporate event packages rooftop, birthday party packages bangalore restaurant, group dining packages macaw, event packages aecs layout',
+    'party restaurant in bangalore, birthday party places in bangalore, best birthday restaurant in bangalore, birthday celebration places in bangalore, party restaurant in singasandra, party restaurant in hosur road, best celebration restaurant in bangalore, corporate party packages bangalore, group dining aecs layout',
 
   chennaiPackages:
-    'macaw chennai packages, celebration packages chennai omr, corporate dining chennai, party packages sholinganallur, event packages macaw chennai',
+    'party places in chennai, party places in omr, birthday party restaurant in omr, best birthday restaurant in chennai, birthday celebration places in omr, party restaurant in sholinganallur, best group dining restaurant in omr, best restaurant for celebrations in chennai',
 
   media:
-    'macaw by stories news, macaw press coverage, macaw by stories blog, rooftop bar articles, chennai restaurant news, bangalore nightlife media',
+    'macaw by stories news, macaw press coverage, macaw by stories blog, rooftop restaurant in bangalore, rooftop restaurant in chennai, nightlife in bangalore, nightlife in omr',
 
   contact:
-    'book table macaw by stories, reserve rooftop bar bangalore, macaw chennai reservations, private dining bangalore, corporate party venue chennai, contact macaw by stories, table booking aecs layout',
+    'book table macaw by stories, rooftop restaurant aecs layout reservation, rooftop restaurant sholinganallur reservation, romantic restaurant in bangalore, romantic restaurant in omr, date night restaurants, private dining, birthday party booking',
 
   blog: (topic: string) =>
-    `${topic}, macaw by stories, rooftop bar bangalore, rooftop restaurant chennai, macaw blog`,
+    `${topic}, macaw by stories, rooftop restaurant in bangalore, rooftop restaurant in chennai, live music restaurant, nightlife`,
 } as const;

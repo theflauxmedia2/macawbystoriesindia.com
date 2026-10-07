@@ -336,7 +336,7 @@ const BLOGS = [
 
         <h2 className="font-cinzel text-2xl font-bold text-primary mb-3">🎟️ Ready to Make Your Weekend Count?</h2>
         <p className="text-foreground leading-relaxed mb-2">
-          Macaw by Stories – Chennai is where the city comes to unwind, recharge, and celebrate. Whether you're coming for dinner, dancing, or both—there’s always a perfect moment waiting for you.
+          Macaw by Stories – Chennai is where the city comes to unwind, recharge, and celebrate—one of the best night-out spots on OMR, with live music, DJ nights and a rooftop made for dinner in Sholinganallur. Whether you're coming for dinner, dancing, or both—there’s always a perfect moment waiting for you.
         </p>
         <p className="text-foreground leading-relaxed">📍 Address: 132, Max Kailash Building, Sholinganallur, OMR, Chennai</p>
         <p className="text-foreground leading-relaxed">📅 Best days: Thursday to Sunday</p>
@@ -477,8 +477,8 @@ const BLOGS = [
           Though united by the Macaw spirit, each city brings its own flavor to the entertainment:
         </p>
         <ul className="list-disc pl-6 space-y-2 text-foreground mb-6">
-          <li>Macaw Chennai leans into its ocean-side setting with relaxed sundowners that build into high-energy dance nights.</li>
-          <li>Macaw Bengaluru offers a more urban, boutique-style experience with curated sets, tighter zones, and themed nights that pack a punch.</li>
+          <li>Macaw Chennai, our rooftop in Sholinganallur on OMR, leans into its ocean-side setting with relaxed sundowners, live music and high-energy DJ nights.</li>
+          <li>Macaw Bengaluru, our live music restaurant in AECS Layout on Hosur Road, offers a more urban, boutique-style experience with curated sets, tighter zones, and themed nights that pack a punch.</li>
         </ul>
         <p className="text-foreground leading-relaxed mb-8">No matter where you party, Macaw brings the atmosphere.</p>
 

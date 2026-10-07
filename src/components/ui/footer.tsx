@@ -21,7 +21,7 @@ export const Footer = () => {
             </div>
             <p className="text-cream/80 mb-6 sm:mb-8 leading-relaxed text-sm sm:text-base">
               Where vibrant stories unfold and tropical luxury meets urban sophistication. 
-              Experience rooftop dining, cocktails, and nightlife in Bangalore and Chennai.
+              Rooftop restaurants with live music, cocktails and nightlife in AECS Layout, Bengaluru and Sholinganallur, OMR, Chennai.
             </p>
             <div className="flex space-x-3 sm:space-x-4 justify-center sm:justify-start">
               <a 

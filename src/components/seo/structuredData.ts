@@ -29,12 +29,19 @@ export function buildRestaurantSchema(locationKey: LocationKey) {
     '@type': ['Restaurant', 'BarOrPub', 'NightClub'],
     '@id': `${SITE_URL}/#restaurant-${location.slug}`,
     name: location.name,
-    description: `Rooftop dining, cocktails, live music and nightlife at ${location.name}.`,
+    description: location.description,
     url: absoluteUrl(path),
     image: location.image,
     telephone: location.telephone,
     priceRange: '$$$',
-    servesCuisine: ['Indian', 'Continental', 'Asian', 'Japanese', 'Mediterranean'],
+    servesCuisine: [...location.servesCuisine],
+    areaServed: location.areaServed.map((name) => ({ '@type': 'Place', name })),
+    amenityFeature: [
+      { '@type': 'LocationFeatureSpecification', name: 'Rooftop seating', value: true },
+      { '@type': 'LocationFeatureSpecification', name: 'Live music', value: true },
+      { '@type': 'LocationFeatureSpecification', name: 'DJ nights', value: true },
+      { '@type': 'LocationFeatureSpecification', name: 'Full bar', value: true },
+    ],
     acceptsReservations: true,
     currenciesAccepted: 'INR',
     paymentAccepted: ['Cash', 'Credit Card', 'UPI'],
@@ -78,7 +85,7 @@ export function buildWebSiteSchema() {
     url: SITE_URL,
     name: SITE_NAME,
     description:
-      'Premier rooftop bars and fine dining in Bengaluru and Chennai — signature cocktails, live DJs, and elevated nightlife.',
+      'Rooftop restaurants with live music, nightlife and multi-cuisine dining in AECS Layout, Bengaluru and Sholinganallur (OMR), Chennai.',
     inLanguage: 'en-IN',
     publisher: { '@id': `${SITE_URL}/#organization` },
   };
@@ -138,7 +145,7 @@ export function buildLocationsPageSchema() {
     '@type': 'CollectionPage',
     name: 'Macaw by Stories Locations',
     description:
-      'Find Macaw by Stories rooftop restaurants in Bengaluru (AECS Layout) and Chennai (Sholinganallur OMR).',
+      'Macaw by Stories rooftop restaurants with live music in AECS Layout near Singasandra, Hosur Road, Bengaluru and Sholinganallur on OMR, Chennai.',
     url: absoluteUrl('/locations'),
     isPartOf: { '@id': `${SITE_URL}/#website` },
     mainEntity: {
@@ -203,6 +210,21 @@ export function buildArticleSchema({
     },
     isPartOf: { '@id': `${SITE_URL}/#website` },
     inLanguage: 'en-IN',
+  };
+}
+
+export function buildFaqSchema(faqs: { question: string; answer: string }[]) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map((faq) => ({
+      '@type': 'Question',
+      name: faq.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: faq.answer,
+      },
+    })),
   };
 }
 

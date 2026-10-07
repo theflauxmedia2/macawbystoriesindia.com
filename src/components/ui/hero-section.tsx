@@ -61,6 +61,9 @@ export const HeroSection = ({ onBookTableClick }: HeroSectionProps) => {
         <div className="max-w-6xl mx-auto w-full">
           <div className="animate-reveal" style={{ animationDelay: '0.1s' }}>
             <h1 className="font-cinzel text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold text-primary mb-4 sm:mb-6 lg:mb-8 leading-tight tracking-tight">
+              <span className="block font-montserrat text-xs sm:text-sm md:text-base font-semibold uppercase tracking-[0.2em] text-cream/90 mb-3 sm:mb-4">
+                Rooftop Restaurant · Live Music · Nightlife in Bengaluru &amp; Chennai
+              </span>
               <span className="block">Macaw: Two Cities,</span>
               <span className="block bg-gradient-gold bg-clip-text text-transparent">
                 One Iconic Nightlife Vibe
@@ -70,9 +73,9 @@ export const HeroSection = ({ onBookTableClick }: HeroSectionProps) => {
 
           <div className="animate-reveal" style={{ animationDelay: '0.25s' }}>
             <p className="text-base sm:text-lg md:text-lg lg:text-xl text-cream/95 mb-8 sm:mb-10 lg:mb-12 font-light leading-relaxed max-w-4xl mx-auto px-2 sm:px-4">
-              Chennai & Bengaluru rooftops serving signature sips, live music energy,
+              Rooftop dining in AECS Layout, Bengaluru and Sholinganallur on OMR, Chennai—signature cocktails,
               <br className="hidden sm:block" />
-              and elevated dining—your next rooftop bar night out.
+              live music energy and North Indian, Asian &amp; continental plates for your next night out.
             </p>
           </div>
 

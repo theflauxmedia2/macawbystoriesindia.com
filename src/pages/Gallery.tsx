@@ -318,8 +318,8 @@ const Gallery = () => {
               Gallery
             </h1>
             <p className="text-base sm:text-lg lg:text-lg text-foreground max-w-4xl mx-auto leading-relaxed px-2">
-              Step into our world of tropical luxury. Explore the vibrant atmosphere, 
-              exquisite cuisine, and unforgettable moments that define Macaw by Stories.
+              Step into our world of tropical luxury. Explore the rooftop ambience, food, cocktails and
+              party nights at our restaurants in AECS Layout, Bengaluru and Sholinganallur, OMR, Chennai.
             </p>
           </div>
         </section>
@@ -351,7 +351,7 @@ const Gallery = () => {
                   <div className="relative overflow-hidden aspect-square">
                     <OptimizedImage
                       src={item.image}
-                      alt={item.title}
+                      alt={`${item.title} — ${item.description}, Macaw by Stories`}
                       className="group-hover:scale-[1.03] transition-transform duration-700 ease-out"
                     />
                     {item.category === 'ambience' && (
@@ -381,7 +381,7 @@ const Gallery = () => {
               Ready to Create Your Own Story?
             </h2>
             <p className="text-base sm:text-lg lg:text-lg text-foreground mb-6 sm:mb-8 lg:mb-10 max-w-3xl mx-auto leading-relaxed px-2">
-              Experience the magic firsthand. Book your table and become part of our gallery.
+              Experience the magic firsthand—book a table for dinner, a date night or a party at our rooftop restaurants and become part of our gallery.
             </p>
             <button
               onClick={() => handleBookTableClick()}

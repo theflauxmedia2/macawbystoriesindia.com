@@ -4,8 +4,8 @@ export const HighlightsGrid = () => {
   const highlights = [
     {
       icon: Music,
-      title: 'Live DJs',
-      description: 'Experience electrifying beats with our resident and guest DJs',
+      title: 'Live Music & DJs',
+      description: 'Live music, resident and guest DJs—nightlife that keeps going after dinner',
     },
     {
       icon: Utensils,
@@ -15,12 +15,12 @@ export const HighlightsGrid = () => {
     {
       icon: Calendar,
       title: 'Themed Nights',
-      description: 'Weekly themed events and special celebrations',
+      description: 'Weekly themed nights, birthday parties and special celebrations',
     },
     {
       icon: Building,
-      title: 'Skyline Dining',
-      description: 'Panoramic rooftop views while you dine and unwind',
+      title: 'Rooftop Dining',
+      description: 'Panoramic rooftop views for romantic dinners and date nights',
     },
   ];
 
@@ -32,7 +32,7 @@ export const HighlightsGrid = () => {
             Why Choose Macaw
           </h2>
           <p className="text-sm sm:text-base lg:text-base text-foreground max-w-3xl mx-auto leading-relaxed px-2">
-            Discover what makes our rooftop experience truly exceptional
+            What makes us one of the most-loved rooftop restaurants in Bangalore and Chennai
           </p>
         </div>
 

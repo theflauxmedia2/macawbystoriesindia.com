@@ -27,6 +27,10 @@ export const LOCATIONS = {
     longitude: 77.6267,
     reservationUrl: 'https://webbook.wegsoft.com/H7G6F5E4D3C2B1A0Z9Y8',
     image: DEFAULT_OG_IMAGE,
+    description:
+      'Rooftop restaurant in AECS Layout near Singasandra on Hosur Road, Bengaluru — live music, DJs, nightlife, cocktails and North Indian, continental, Asian, Chinese, pizza and pasta dishes. Open late till 1 AM for dinners, date nights and birthday parties.',
+    servesCuisine: ['North Indian', 'Continental', 'Asian', 'Chinese', 'Italian', 'Pizza', 'Pasta', 'Bar Food'],
+    areaServed: ['AECS Layout', 'Singasandra', 'Hosur Road', 'Bommanahalli', 'Bengaluru'],
   },
   chennai: {
     id: 'chennai',
@@ -42,6 +46,10 @@ export const LOCATIONS = {
     longitude: 80.2204,
     reservationUrl: 'https://webbook.wegsoft.com/Q8W7E6R5T4Y3U2I1O0',
     image: CHENNAI_OG_IMAGE,
+    description:
+      'Rooftop restaurant in Sholinganallur on OMR, Chennai — live music, DJ nights, nightlife, cocktails and North Indian, South Indian, continental, Asian, Chinese, pizza and pasta dishes. Ideal for dinners, date nights, birthday parties and group celebrations.',
+    servesCuisine: ['North Indian', 'South Indian', 'Continental', 'Asian', 'Chinese', 'Italian', 'Pizza', 'Pasta', 'Bar Food'],
+    areaServed: ['Sholinganallur', 'OMR', 'Old Mahabalipuram Road', 'Rajiv Gandhi Salai', 'Chennai'],
   },
 } as const;
 
